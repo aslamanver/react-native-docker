@@ -27,11 +27,6 @@ jobs:
 https://bitbucket.org/aslamanver/react-native-ci-test/src/main/bitbucket-pipelines.yml
 
 ```yml
-#  Template NodeJS build
-
-#  This template allows you to validate your NodeJS code.
-#  The workflow allows running tests and code linting on the default branch.
-
 image: aslamanver/react-native:1.0.1
 
 pipelines:
