@@ -23,7 +23,6 @@ https://bitbucket.org/aslamanver/react-native-ci-test/src/main/bitbucket-pipelin
 
 ```yml
 image: aslamanver/react-native:1.0.1
-
 pipelines:
   default:
     - parallel:
