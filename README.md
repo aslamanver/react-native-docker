@@ -2,16 +2,11 @@
 https://github.com/aslamanver/react-native-ci-test/blob/main/.github/workflows/main.yml
 
 ```yml
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+on: [push]
 jobs:
-  hello_world_job:
+  react_native_ci_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: React Native CI Build
     steps:
       - name: Checkout
         uses: actions/checkout@v3
