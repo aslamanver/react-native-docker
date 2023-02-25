@@ -1,6 +1,6 @@
 
 [![](https://github.com/aslamanver/react-native-ci-test/actions/workflows/main.yml/badge.svg)](https://github.com/aslamanver/react-native-ci-test/actions)
-[![](https://img.shields.io/bitbucket/pipelines/aslamanver/react-native-ci-test/main?label=bitbucket%20build)](https://bitbucket.org/aslamanver/react-native-ci-test/src/main/bitbucket-pipelines.yml)
+[![](https://img.shields.io/bitbucket/pipelines/aslamanver/react-native-ci-test/main?label=bitbucket%20build)](https://bitbucket.org/aslamanver/react-native-ci-test/pipelines)
 
 ### GitHub Actions
 https://github.com/aslamanver/react-native-ci-test/blob/main/.github/workflows/main.yml
