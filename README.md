@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: React Native CI
-        uses: aslamanver/react-native-docker@v2
+        uses: aslamanver/react-native-docker@v1
       - name: Install NPM Dependencies
         run: npm install
       - name: Run NX Dev Android Build
