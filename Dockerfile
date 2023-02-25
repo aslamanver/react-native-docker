@@ -21,8 +21,6 @@ ENV PATH="${PATH}:${ANDROID_HOME}/platform-tools"
 # RUN chmod +x /entrypoint.sh
 # CMD ["./entrypoint.sh"]
 
-COPY . .
-
 ADD entrypoint.sh /usr/local/bin/
 ENTRYPOINT [ "entrypoint.sh" ]
 # CMD [ "node" ]
