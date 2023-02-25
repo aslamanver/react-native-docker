@@ -1,6 +1,10 @@
 # action.yml
 name: 'React Native Android Nx'
 description: 'React Native CI Action for Android and Nx'
+author: 'Aslam Anver'
+branding:
+  icon: 'smartphone'
+  color: 'green'
 runs:
   using: 'docker'
   image: 'Dockerfile'
