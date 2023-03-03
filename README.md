@@ -40,6 +40,9 @@ pipelines:
 
 ```
 
+### Docker Local Build
+
+
 ```dockerfile
 FROM aslamanver/react-native:1.0.1
 
