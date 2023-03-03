@@ -44,6 +44,8 @@ pipelines:
 
 
 ```dockerfile
+# Dockerfile
+
 FROM aslamanver/react-native:1.0.1
 
 WORKDIR /app
@@ -57,6 +59,16 @@ ENTRYPOINT ["commands.sh"]
 ```
 
 ```sh
+# commands.sh
+
+#!/bin/sh
+npm install
+npm run ci
+```
+
+```sh
 docker build -t app .
+```
+```sh
 docker run -it --name react_native_app app
 ```
