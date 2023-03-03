@@ -39,3 +39,21 @@ pipelines:
               - npx nx build-android mobile
 
 ```
+
+```dockerfile
+FROM aslamanver/react-native:1.0.1
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+ADD commands.sh /usr/local/bin/
+ENTRYPOINT ["commands.sh"]
+```
+
+```sh
+docker build -t app .
+docker run -it --name react_native_app app
+```
