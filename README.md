@@ -62,6 +62,7 @@ ENTRYPOINT ["commands.sh"]
 # commands.sh
 
 #!/bin/sh
+
 npm install
 npm run ci
 ```
@@ -69,6 +70,7 @@ npm run ci
 ```sh
 docker build -t app .
 ```
+
 ```sh
 docker run -it --name react_native_app app
 ```
