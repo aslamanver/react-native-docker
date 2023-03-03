@@ -67,6 +67,8 @@ npm install
 npm run ci
 ```
 
+Run in Terminal;
+
 ```sh
 docker build -t app .
 ```
