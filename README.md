@@ -40,6 +40,8 @@ pipelines:
 
 ```
 
+<hr/>
+
 ### Docker Local Build
 
 
@@ -67,7 +69,7 @@ npm install
 npm run ci
 ```
 
-Run in Terminal;
+<hr/>
 
 ```sh
 docker build -t app .
