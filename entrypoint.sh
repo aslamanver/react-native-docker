@@ -14,7 +14,11 @@
 node -v
 java -version
 
-# cd /citest
+# Test
+# cd /test
 # npm install
-# npx nx build-android mobile
+# npm run t98training:android:build
+# cd apps/t98training/android && ./gradlew assembleDebug
 
+# sleep infinity
+# /bin/bash
