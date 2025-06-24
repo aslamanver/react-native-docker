@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: React Native CI
-        uses: aslamanver/react-native-docker@v1
+        uses: aslamanver/react-native-docker@v1.0.4
       - name: Install NPM Dependencies
         run: npm install
       - name: Run NX Dev Android Build
@@ -26,7 +26,7 @@ jobs:
 https://bitbucket.org/aslamanver/react-native-ci-test/src/main/bitbucket-pipelines.yml
 
 ```yml
-image: aslamanver/react-native:1.0.1
+image: aslamanver/react-native:1.0.4
 pipelines:
   default:
     - parallel:
@@ -48,7 +48,7 @@ pipelines:
 ```dockerfile
 # Dockerfile
 
-FROM aslamanver/react-native:1.0.1
+FROM aslamanver/react-native:1.0.4
 
 WORKDIR /app
 
