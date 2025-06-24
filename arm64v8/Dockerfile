@@ -4,6 +4,7 @@ RUN apt-get update &&  \
     apt-get install build-essential -y && \
     apt-get install curl -y && \
     apt-get install unzip -y && \
+    apt-get install git -y && \
     curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs && \
     apt install -y openjdk-18-jdk -y && \
